@@ -1,0 +1,19 @@
+# Secrets - JAMAIS commiter la cle API ou tout fichier .env
+.env
+.env.*
+!.env.example
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Sorties du script (contiennent potentiellement des donnees de prospection)
+*.csv
+!sample_output.csv
+
+.DS_Store
